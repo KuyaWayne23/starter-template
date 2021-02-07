@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@sweetalert2/themes": "^4.0.2",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "sweetalert2": "^10.14.0"
+  }
+}

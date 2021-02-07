@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CZNNHS Property Monitoring System</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link type="text/css" rel="stylesheet" href="assets/sweetalert/dist/sweetalert2.min.css" />
+        <link type="text/css" rel="stylesheet" href="assets/sweetalert/theme-dark/dark.min.css" />
+        <link type="text/css" rel="stylesheet" href="assets/bootstrap/css/neon-glow.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <style type="text/css">
+            .padding-left-0 {
+                padding-left: 0px;
+            }
+
+            .padding-right-0 {
+                padding-right: 0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <form action="php/login.php" method="post" id="formLogin">
+                <nav class="navbar navbar-expand-md bg-dark fixed-top">
+                    <a href="#" class="navbar-brand text-light">CZNNHS Property Monitoring System</a>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <input type="text" id="login-username" placeholder="Username" class="form-control" />
+                        </li>
+
+                        <li class="nav-item" style="margin-left: 1em">
+                            <input type="password" id="login-password" placeholder="Password" class="form-control" />
+                        </li>
+
+                        <li class="nav-item" style="margin-left: 1em">
+                            <input type="submit" value="Login" class="btn btn-primary" id="buttonLogin" />
+                        </li>
+                    </ul>
+                </nav>
+            </form>
+        </header>
+
+        <article style="margin-top: 4em">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="img/icons/test_partial_passed_480px.png" alt="Cover Image" class="img-fluid" style="width: 50%" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Eu facilisis sed odio morbi quis commodo odio aenean. In
+                                    mollis nunc sed id. Venenatis tellus in metus vulputate eu
+                                    scelerisque felis imperdiet. Condimentum lacinia quis vel eros
+                                    donec ac. Neque convallis a cras semper auctor neque vitae.
+                                    Enim diam vulputate ut pharetra sit amet aliquam id diam.
+                                    Massa ultricies mi quis hendrerit. Tristique sollicitudin nibh
+                                    sit amet. Ut porttitor leo a diam sollicitudin tempor id eu
+                                    nisl. Lacus sed viverra tellus in hac habitasse platea
+                                    dictumst vestibulum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="container">
+                        <form action="php/test.php" method="post" class="card" id="formRegistration">
+                            <div class="text-center card-header">Registration Form</div>
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="First Name" id="firstname" />
+                                    </div>
+
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="Middle Name" id="middlename" />
+                                    </div>
+
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="Last Name" id="lastname" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Username"
+                                            id="register-username" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <input type="password" class="form-control" placeholder="Password"
+                                            id="textPassword" />
+                                    </div>
+
+                                    <div class="form-group col-md-6">
+                                        <input type="password" class="form-control" placeholder="Confirm Password"
+                                            id="textPasswordAgain" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <input type="submit" value="Register" class="btn btn-primary btn-block" id="buttonRegister"
+                                    name="buttonRegister" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer>
+            <div class="navbar navbar-expand-md bg-dark fixed-bottom">
+                <p class="text-light" style="margin-bottom: 0px">
+                    Developed By: Orlie Wayne A. Faustorilla
+                </p>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <p style="margin-bottom: 0px" class="nav-link text-light" id="time-and-date">
+                            March 31, 2017 at 6:00:00 PM
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="assets/sweetalert/dist/sweetalert2.min.js"></script>
+        <script type="text/javascript" src="assets/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/confirm-password.js"></script>
+        <script type="text/javascript" src="js/submit-registration.js"></script>
+        <script type="text/javascript" src="js/submit-login.js"></script>
+        <script type="text/javascript" src="js/clock.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+
+</html>
